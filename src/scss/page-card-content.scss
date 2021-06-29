@@ -1,0 +1,22 @@
+.card-content {
+  width: 235px;
+  margin-left: auto;
+  margin-right: 16px;
+}
+
+.page-card-content {
+  position: relative;
+  width: 235px;
+  padding: 15px;
+  font-size: 12px;
+
+  .image {
+    position: absolute;
+    top: -17px;
+    left: -17%;
+  }
+
+  .text {
+    padding-left: 38px;
+  }
+}

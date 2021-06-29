@@ -1,0 +1,40 @@
+@import './variables';
+
+.page-three {
+  &__text {
+    margin-bottom: 51px;
+  }
+
+  .card {
+    width: 235px;
+    margin-left: auto;
+  }
+
+  .page-card-content {
+    .image {
+      top: -21px;
+      transform: rotate(10deg);
+      left: -20%;
+    }
+  }
+
+  .cube-white-small {
+    display: block;
+    transform: rotate(0deg);
+    bottom: 50px;
+    right: 35px;
+
+    img {
+      width: 90px;
+    }
+  }
+
+  .cube-yellow-big {
+    bottom: 95px;
+    left: 13px;
+
+    img {
+      width: 135px;
+    }
+  }
+}

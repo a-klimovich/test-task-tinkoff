@@ -1,0 +1,35 @@
+@import './variables';
+
+.page-four {
+  &__list {
+    font-size: 16px;
+    padding-left: 25px;
+    margin-bottom: 71px;
+  }
+
+  .card {
+    width: 235px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+
+  .page-card-content {
+    .image {
+      left: -19%;
+    }
+  }
+
+  .cube-white-small {
+    bottom: 50%;
+    right: 10%;
+  }
+
+  .cube-yellow-big {
+    bottom: 16.5%;
+    right: 15%;
+
+    img {
+      width: 140px;
+    }
+  }
+}

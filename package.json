@@ -1,0 +1,23 @@
+{
+  "name": "tinkoff-tz-arthur-klimovich",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.1.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "devDependencies": {
+    "gulp-connect": "^5.7.0"
+  }
+}

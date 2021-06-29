@@ -1,0 +1,57 @@
+@import './variables';
+
+.page-six {
+  overflow: hidden;
+
+  &__text {
+    margin-bottom: 65px;
+  }
+
+  &__logo {
+    margin-bottom: 86px;
+  }
+
+  &__btn {
+    width: 100%;
+    background: $white;
+
+    border: none;
+    border-radius: 26px;
+    padding: 14px 0;
+    cursor: pointer;
+
+    a {
+      text-decoration: none;
+      color: $black;
+    }
+  }
+
+  .cube-yellow-blur {
+    transform: rotate(-25deg);
+    bottom: 225px;
+    left: 192px;
+
+    img {
+      width: 149px;
+    }
+  }
+
+  .cube-yellow-big {
+    bottom: -174px;
+    left: -312px;
+    transform: rotate(-258deg);
+
+    img {
+      width: 150px;
+    }
+  }
+
+  .cube-white-small {
+    bottom: 83px;
+    right: 25px;
+
+    img {
+      width: 90px;
+    }
+  }
+}

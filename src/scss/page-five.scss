@@ -1,0 +1,42 @@
+@import './variables';
+
+.page-five {
+  position: relative;
+
+  &__chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    input {
+      min-height: 61px;
+      border-radius: 12px;
+      border: 1px solid $black;
+      padding: 10px 12px;
+      background: rgba(255, 255, 255, 0.664);
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: -0.41px;
+
+      &::placeholder {
+        color: #333333;
+      }
+    }
+  }
+
+  &__btn {
+    width: 100%;
+    position: relative;
+    bottom: -290px;
+    padding: 13px 0;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    
+    background: $yellow;
+    color: $black;
+    cursor: pointer;
+
+    overflow: hidden;
+  }
+}

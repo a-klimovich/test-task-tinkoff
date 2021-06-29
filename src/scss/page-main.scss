@@ -1,0 +1,91 @@
+@import './variables';
+
+.page-main {
+  &__date {
+    width: fit-content;
+    background: $bg-yellow;
+    color: $black;
+    font-size: 14px;
+    
+    text-align: center;
+    
+    border-radius: 24px;
+    margin-bottom: 15px;
+    padding: 4px 10px;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    line-height: 31.69px;
+  }
+
+  &__text {
+    margin-bottom: 80px;
+    line-height: 20px;
+  }
+}
+
+.card-persone {
+  display: flex;
+  padding: 10px 15px;
+
+  &__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 65px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    .name {
+      width: fit-content;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 15px;
+    }
+
+    .text {
+      width: fit-content;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 15px;
+    }
+  }
+}
+
+.cube-img {
+  position: absolute;
+}
+
+.cube-white-big-blur {
+  bottom: 0;
+  left: 0;
+}
+
+.cube-yellow-big {
+  bottom: 35px;
+  right: 0px;
+}
+
+.cube-white-small {
+  bottom: 166px;
+  right: 15px;
+}
+
+.cube-yellow-blur {
+  bottom: 163px;
+  left: -10px;
+}

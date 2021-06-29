@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('./utils/head.html')
+  <body>
+    <div class="wrapper">
+      <div class="main-grid-container">
+        <div class="page page-main">
+          <div class="page-main__date">2 февраля</div>
+  
+          <h1 class="page-main__title">Delivery Club: как повысить продажи</h1>
+  
+          <p class="page-main__text">По материалам подкаста «Бизнес-ланч» с Артемом Ишониным — директором Delivery Club</p>
+  
+          <div class="card-persone card">
+            <div class="card-persone__image">
+              <img src="../assets/persone/p1.jpg" alt="">
+            </div>
+  
+            <div class="card-persone__info">
+              <p class="name">Артем Ишонин</p>
+              <p class="text">директор по сопровождению клиентов Delivery Club</p>
+            </div>
+          </div>
+  
+          <span class="cube-img cube-yellow-blur">
+            <img src="../assets/figure/cube-yellow-blur.svg" alt="">
+          </span>
+  
+          <span class="cube-img cube-white-small">
+            <img src="../assets/figure/cube-white-small.svg" alt="">
+          </span>
+  
+          <span class="cube-img cube-white-big-blur">
+            <img src="../assets/figure/cube-white-big-blur.svg" alt="">
+          </span>
+  
+          <span class="cube-img cube-yellow-big">
+            <img src="../assets/figure/cube-yellow-big.svg" alt="">
+          </span>
+        </div>
+  
+        <div class="page page-one">
+          <p class="h2">Определить участников процесса</p>
+  
+          <p class="page-one__text">Составьте список тех, кто пользуется вашим продуктом.</p>
+          <p class="page-one__link"><a href="#">Скачать чек-лист списка</a></p>
+  
+  
+          <div class="card">
+            <ul class="page-one__list">
+              <li class="list-item-head">
+                <div class="list-item-head__text">Delivery Club связывает <br> три стороны:</div>
+              </li>
+    
+              <li class="list-item">
+                <span class="list-item__iamge chefs-toque"><img src="../assets/icons/chefs-toque.svg" alt=""></span>
+                <span class="list-item__text">Клиенты-рестораны <br> размещают меню.</span>
+              </li>
+    
+              <li class="list-item">
+                <span class="list-item__iamge wink-emoji"><img src="../assets/icons/wink-emoji.svg" alt=""></span>
+                <span class="list-item__text">Клиенты-физлица <br> делают заказы.</span>
+              </li>
+    
+              <li class="list-item">
+                <span class="list-item__iamge pizza-box"><img src="../assets/icons/pizza-box.svg" alt=""></span>
+                <span class="list-item__text">Курьеры доставляют заказы.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="page page-two">
+          <p class="h2">Нарисовать карты сценариев использования</p>
+  
+          <p class="page-two__text">Представьте, какой путь проходит каждый участник процесса. Визуализируйте это.</p>
+  
+          <div class="card card-content">
+            @@include('./page-card-content.html', {
+              'image': '../assets/icons/notepade.svg',
+              'text': 'Например, чтобы разместить свое меню в приложении в Delivery Club, ресторан должен подать заявку на регистрацию на сайте и подписать оферту.'
+            })
+          </div>
+  
+          <span class="cube-img cube-white-small">
+            <img src="../assets/figure/cube-white-small.svg" alt="">
+          </span>
+  
+          <span class="cube-img cube-yellow-big">
+            <img src="../assets/figure/cube-yellow-big.svg" alt="">
+          </span>
+        </div>
+  
+        <div class="page page-three">
+          <p class="h2">Найти ошибки в процессах</p>
+  
+          <p class="page-three__text">Пройдите путь каждого пользователя по точкам, чтобы найти слабые места, которые снижают продажи.</p>
+  
+          <div class="card card-content">
+            @@include('./page-card-content.html', {
+              'image': '../assets/icons/linz.svg',
+              'text': 'Delivery Club терял потенциальных партнеров, потому что было трудно найти на сайте страницу с формой заявки на сотрудничество.'
+            })
+          </div>
+  
+          <span class="cube-img cube-white-small">
+            <img src="../assets/figure/cube-white-small.svg" alt="">
+          </span>
+  
+          <span class="cube-img cube-yellow-big">
+            <img src="../assets/figure/cube-yellow-big.svg" alt="">
+          </span>
+        </div>
+  
+        <div class="page page-four">
+          <p class="h2">Пересмотреть процессы</p>
+  
+          <ul class="page-four__list">
+            <li>Исправьте ошибки.</li>
+            <li>Пропишите инструкции.</li>
+            <li>Проверьте все еще раз.</li>
+          </ul>
+  
+          <div class="card card-content">
+            @@include('./page-card-content.html', {
+              'image': '../assets/icons/bulb.svg',
+              'text': 'Delivery Club перенес форму заявки для ресторанов на главную страницу — количество партнеров увеличилось.'
+            })
+          </div>
+  
+          <span class="cube-img cube-white-small">
+            <img src="../assets/figure/cube-white-small.svg" alt="">
+          </span>
+  
+          <span class="cube-img cube-yellow-big">
+            <img src="../assets/figure/cube-yellow-big.svg" alt="">
+          </span>
+        </div>
+  
+        <div class="page page-five">
+          <p class="h2">Задайте вопрос спикеру</p>
+  
+          <form id="cath-form" class="page-five__chat" action="#">
+            <input type="text" placeholder="У мен есть вопрос, могу спросить?">
+          </form>
+  
+          <button form="cath-form" class="page-five__btn">Отправить</button>
+        </div>
+  
+        <div class="page page-six">
+          <p class="h2">Опыт Delivery Club в подкасте «Бизнес-ланч»</p>
+  
+          <p class="page-six__text">В подкасте с Артемом Ишониным из Delivery Club обсудили, как отлаживать процессы в компании.</p>
+  
+          <div class="page-six__logo">
+            <img src="../assets/icons/logo.svg" alt="">
+          </div>
+  
+          <span class="cube-img cube-yellow-blur">
+            <img src="../assets/figure/cube-yellow-blur.svg" alt="">
+          </span>
+  
+          <span class="cube-img cube-white-small">
+            <img src="../assets/figure/cube-white-small.svg" alt="">
+          </span>
+  
+          <span class="cube-img cube-yellow-big">
+            <img src="../assets/figure/cube-yellow-big.svg" alt="">
+          </span>
+  
+          <button class="page-six__btn"><a href="#">Смотреть на YouTube</a></button>
+        </div>
+      </div>
+    </div>
+  </body>
+  @@include('./utils/includies.html')
+</html>

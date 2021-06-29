@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Source+Sans+Pro:wght@400;700&display=swap');
+
+@import "variables";
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('SFProDisplay-Medium.eot');
+  src: local('SF Pro Display Medium'), local('SFProDisplay-Medium'),
+      url('SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+      url('SFProDisplay-Medium.woff2') format('woff2'),
+      url('SFProDisplay-Medium.woff') format('woff'),
+      url('SFProDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('SFProDisplay-Regular.eot');
+  src: local('SF Pro Display Regular'), local('SFProDisplay-Regular'),
+      url('SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+      url('SFProDisplay-Regular.woff2') format('woff2'),
+      url('SFProDisplay-Regular.woff') format('woff'),
+      url('SFProDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: $bg-body;
+
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, .h1 {
+  font-size: 26px;
+}
+
+h2, .h2 {
+  font-size: 24px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  color: $yellow;
+}
+
+.card {
+  background: $white;
+  color: $black;
+  border-radius: 11px;
+}
+
+.main-grid-container {
+  display: grid;
+  grid-template-rows: repeat(3, 512px);
+  grid-template-columns: repeat(3, 320px);
+  column-gap: 20px;
+  row-gap: 100px;
+}
+
+.page {
+  position: relative;
+  justify-self: center;
+  width: 320px;
+  height: 512px;
+  padding: 20px;
+  color: $white;
+
+  background: linear-gradient(174.8deg, #2C354F 3.21%, #596D99 136.3%), url('../assets/background.png');
+
+  .h2 {
+    margin-bottom: 20px;
+  }
+}

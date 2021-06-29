@@ -1,0 +1,60 @@
+@import './variables';
+
+.page-one {
+  &__text {
+    margin-bottom: 30px;
+  }
+
+  &__link {
+    margin-bottom: 20px;
+  }
+
+  .card {
+    width: 235px;
+    margin-left: auto;
+  }
+
+  &__list {
+    list-style: none;
+
+    .list-item-head {
+      border-bottom: 1px solid #E0E0E0;
+      padding: 15px 0;
+      font-size: 12px;
+
+      &__text {
+        margin-left: 25px;
+      }
+    }
+    
+    .list-item {
+      position: relative;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #E0E0E0;
+      padding: 15px 0;
+      font-size: 12px;
+      
+      &:nth-last-child(1) {
+        border-bottom: none;
+      }
+
+      .wink-emoji {
+        transform: translate(-35%, 5px);
+      }
+
+      .pizza-box {
+        transform: translate(-33%, 5px);
+      }
+
+      &__iamge {
+        position: absolute;
+        transform: translate(-37%, 5px);
+      }
+
+      &__text {
+        padding-left: 40px;
+      }
+    }
+  }
+}

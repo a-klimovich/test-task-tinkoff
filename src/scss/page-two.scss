@@ -1,0 +1,28 @@
+@import './variables';
+
+.page-two {
+  &__text {
+    margin-bottom: 42px;
+  }
+
+  .card {
+    width: 235px;
+    margin-left: auto;
+  }
+
+  .cube-white-small {
+    display: block;
+    transform: rotate(-75deg);
+    bottom: 45px;
+    right: 165px;
+  }
+
+  .cube-yellow-big {
+    bottom: 55px;
+    right: 15px;
+
+    img {
+      width: 160px;
+    }
+  }
+}
