@@ -1,6 +1,6 @@
 # TZ Arthur Klimovich
 #### The project was created using:
-
+>HTML5
 >Scss
 #### Workflow:
 > Gulp 
